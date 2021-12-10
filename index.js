@@ -30,6 +30,8 @@ function onSignIn(googleUser) {
     <p id="email">${email}</p>
     `;
 
+
+
     displaySection.insertAdjacentHTML('afterbegin', html)
   }
 
